@@ -10,7 +10,6 @@ def shuffle(my_list):
         tmp = my_list[i]
         my_list[i] = my_list[swap]
         my_list[swap] = tmp
-    return None
 
 
 random.seed(42)
