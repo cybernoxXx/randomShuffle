@@ -2,8 +2,11 @@ import random
 
 
 def shuffle(my_list):
+    # Cycling all list
     for i in range(0, len(my_list)):
+        # Generating a random index
         swap = random.randint(0, len(my_list)-1)
+        # Saving a value and swapping
         tmp = my_list[i]
         my_list[i] = my_list[swap]
         my_list[swap] = tmp
